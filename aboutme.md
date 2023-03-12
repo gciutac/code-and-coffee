@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Ink Your Ideas with Code
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Welcome to my blog! My name is Gheorghe Ciutac, and I'm a programmer who believes that technology can be a force for good in the world.
+I'm passionate about using programming to automate processes and make tasks more efficient, and I'm always looking for ways to use my skills to help others.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+In this blog, I'll be sharing my thoughts on programming, automation, and how technology can help us build a better future.
+Whether you're a seasoned developer or just getting started, I hope you'll find my insights and ideas useful and thought-provoking.
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Thanks for stopping by, and happy coding!
