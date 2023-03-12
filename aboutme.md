@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Ink Your Ideas with Code
+subtitle: Automation Enthusiast with a Passion for Building a Better Future
 ---
 
 Welcome to my blog! My name is Gheorghe Ciutac, and I'm a programmer who believes that technology can be a force for good in the world.
