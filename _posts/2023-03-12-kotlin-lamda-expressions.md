@@ -10,11 +10,11 @@ tags: [Kotlin, lamda]
 
 Lambda expressions are a powerful feature of Kotlin that enable you to write concise and functional code. In this article, we'll explore what lambda expressions are, how they work, and some examples of how they can be used in Kotlin.
 
-What are Lambda Expressions?
+**What are Lambda Expressions?**
 
 Lambda expressions are a way of defining a block of code that can be passed around as an object. Essentially, they allow you to create a function without a name, and then pass it to another function as an argument. Lambda expressions are also known as anonymous functions, closures, or blocks.
 
-How do Lambda Expressions Work?
+**How do Lambda Expressions Work?**
 
 In Kotlin, lambda expressions are defined using the following syntax:
 
@@ -22,7 +22,7 @@ In Kotlin, lambda expressions are defined using the following syntax:
 { argumentList -> codeBody }
 ```
 
-Here, argumentList is a comma-separated list of arguments, and codeBody is the block of code that the lambda expression executes. The code body can contain any valid Kotlin code, including other lambda expressions.
+Here, `argumentList` is a comma-separated list of arguments, and `codeBody` is the block of code that the lambda expression executes. The code body can contain any valid Kotlin code, including other lambda expressions.
 
 Lambda expressions can be assigned to variables or passed as arguments to other functions. For example, here's a simple lambda expression that adds two numbers:
 
@@ -41,7 +41,7 @@ fun calculate(x: Int, y: Int, operation: (Int, Int) -> Int): Int {
 val result = calculate(5, 3, add) // result = 8
 ```
 
-Here, the calculate function takes three arguments: two integers and a lambda expression that takes two integers and returns an integer. The add lambda expression is passed as the operation argument, and the calculate function returns the result of calling the operation lambda expression with the two integer arguments.
+Here, the `calculate` function takes three arguments: two integers and a lambda expression that takes two integers and returns an integer. The add lambda expression is passed as the operation argument, and the calculate function returns the result of calling the operation lambda expression with the two integer arguments.
 
 **Lambda Expressions and Collections**
 
@@ -55,7 +55,7 @@ val numbers = listOf(1, 2, 3, 4, 5)
 val squaredNumbers = numbers.map { it * it } // squaredNumbers = [1, 4, 9, 16, 25]
 ```
 
-Here, the map function takes a lambda expression that multiplies each element in the numbers collection by itself. The it keyword refers to the current element in the collection.
+Here, the `map` function takes a lambda expression that multiplies each element in the numbers collection by itself. The `it` keyword refers to the current element in the collection.
 
 **Conclusion**
 
