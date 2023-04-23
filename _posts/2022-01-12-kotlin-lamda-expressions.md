@@ -2,9 +2,9 @@
 layout: post
 title: 'Kotlin Lambda Expressions'
 subtitle: A Powerful Tool for Concise and Functional Programming
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/lamda_header.png
+thumbnail-img: /assets/img/lamda.jpeg
+share-img: /assets/img/lamda_header.png
 tags: [Kotlin, lamda]
 ---
 
