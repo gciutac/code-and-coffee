@@ -51,7 +51,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.hover-col | default: "#7B8769" }};
 }
 blockquote {
   color: #808080;
@@ -83,12 +83,12 @@ hr.small {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  background-color: {{ site.hover-col | default: "#7B8769" }};
 }
 ::selection {
   color: #fff;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  background-color: {{ site.hover-col | default: "#7B8769" }};
 }
 img::selection {
   color: #fff;
@@ -315,7 +315,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.hover-col | default: "#7B8769" }};
 }
 
 .navbar-custom .avatar-container {
@@ -401,7 +401,7 @@ footer a {
 
 footer a:hover,
 footer a:focus {
-  color: {{ site.footer-hover-col | default: "#0085A1" }};
+  color: {{ site.footer-hover-col | default: "#7B8769" }};
 }
 
 footer .list-inline {
@@ -471,7 +471,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.hover-col | default: "#7B8769" }};
 }
 
 .post-preview .post-title {
@@ -690,7 +690,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
-  color: #0085A1;
+  color: #7B8769;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
@@ -823,8 +823,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid {{ site.hover-col | default: "#0085A1" }};
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  border: 1px solid {{ site.hover-col | default: "#7B8769" }};
+  background-color: {{ site.hover-col | default: "#7B8769" }};
 }
 
 /* --- Tables --- */
