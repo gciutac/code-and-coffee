@@ -3,7 +3,7 @@ layout: post
 title: 'Kotlin Companion Object'
 subtitle: Create Static Methods and Properties
 cover-img: /assets/img/companion-object-header.png
-thumbnail-img: /assets/img/lamda.jpeg
+thumbnail-img: /assets/img/companion-object.png
 share-img: /assets/img/companion-object.png
 tags: [Kotlin, companion object]
 ---
